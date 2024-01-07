@@ -1,0 +1,113 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.block{
+
+    width: 50%;
+    margin: auto;
+    display: flex;
+    height: 70vh;
+    border-radius: 20px;
+    gap: 5px;
+
+
+
+
+}
+
+.left{
+    float: left;
+
+    width: 28%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.left .img {
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+.left .img img {
+    width: 143%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+}
+
+.preview {
+   z-index: 2;
+}
+.preview img {
+    z-index: 2;
+
+}
+
+
+.right{
+    float: right;
+    border: 1px solid #333;
+    width: 70%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    margin-top: 5px;
+    gap: 10px;
+
+
+
+}
+
+.right div {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.right div span {
+    width: 10%;
+    padding: 5px;
+
+
+}
+
+.right div p {
+    width: 90%;
+    border: 1px solid #333;
+    padding: 5px;
+
+}
+
+.right div input {
+    outline: none;
+    padding: 5px;
+    width: 90%;
+}
+
+.div_edit_btn {
+
+}
+.btn_edit {
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 0;
+    border-radius: 6px;
+    background-color: rgb(102, 102, 242);
+    color: white;
+
+}
