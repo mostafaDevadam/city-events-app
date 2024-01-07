@@ -10,6 +10,7 @@ const schema = new mongoose.Schema({
     date: { type: String },
     location: { type: String },
     user: { type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    cover: { type: String, required: false },
 
 }, {
     timestamps: {
