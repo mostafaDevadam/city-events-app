@@ -1,0 +1,48 @@
+
+
+
+events has more posts and more users
+user has more posts
+
+event: 
+
+events-server
+post-service-server
+social-server
+
+
+post service-server:
+
+post: text, user, event
+---------------------------
+user can edit his event
+check if event.user = current login user
+
+---------------------
+1-Add new Event (fertig)
+2-Edit Event (fertig)
+3-Profile: display userphoto (fertig)
+4-Edit Profile: update photo (fertig)
+5-remove Event "dialog": isRemove(true/false), Modal-UI (fertig)
+6- show event*: handle ui (fertig) display cover in the event
+7- MyEvents* : handle ui (fertig)
+----------------------
+solve the token undefind in localstorage
+--------------------------------
+version 1 (update ):
+8- upload cover-image for event in Backend* 
+9- upload cover of event in add new event and edit event*
+display events in calendar
+--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
