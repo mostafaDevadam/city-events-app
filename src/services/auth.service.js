@@ -11,7 +11,7 @@ const login = async (data) => {
     console.log("login:", res)
     StorageService.saveItem("USER", res.data)
     StorageService.saveItem("TOKEN", res.data.token)
-
+ 
     /*if(res.data.id){
         const user = await getUserByID(res.data.id) //await UserService.getUserByID(res.data.id)
         console.log("user:", user)
