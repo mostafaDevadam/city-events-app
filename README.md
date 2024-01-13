@@ -1,4 +1,4 @@
-#City Events App
+## City Events App
 
 You can see city events and add a new event in any city.
 It's a simple app and it developed using nodejs as Backend, React.js as Frontend.
